@@ -1,1 +1,188 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Content Suite Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            light: '#F8F8F8',
+                            dark: '#333333',
+                            accent: '#0A6640',
+                            muted: '#e2e8f0'
+                        }
+                    },
+                    fontFamily: {
+                        serif: ['"Times New Roman"', 'Times', 'serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            background-color: #ffffff;
+            color: #333333;
+            line-height: 1.6;
+        }
+        .content-block {
+            white-space: pre-wrap;
+            text-align: justify;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(4px);
+            border: 1px solid rgba(10, 102, 64, 0.1);
+            transition: all 0.3s ease;
+        }
+        .glass-card:hover {
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.05);
+            border-color: rgba(10, 102, 64, 0.3);
+        }
+        .divider {
+            height: 1px;
+            background: linear-gradient(to right, transparent, #0A6640, transparent);
+            opacity: 0.2;
+            margin: 2rem 0;
+        }
+        details summary::-webkit-details-marker {
+            display:none;
+        }
+        details summary {
+            list-style: none;
+            cursor: pointer;
+        }
+        .copy-button {
+            opacity: 0;
+            transition: opacity 0.2s ease;
+        }
+        .glass-card:hover .copy-button {
+            opacity: 1;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-brand-accent selection:text-white">
 
+    <header class="w-full py-12 px-6 text-center">
+        <h1 class="text-4xl md:text-5xl font-bold tracking-tight text-brand-dark mb-4">
+            YouTube Content Suite Generator
+        </h1>
+        <p class="text-brand-accent uppercase tracking-widest text-sm font-semibold">
+            AI Bất Động Sản • Phạm Hoàng Anh
+        </p>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-6 pb-24">
+        
+        <!-- SECTION: TIÊU ĐỀ -->
+        <section class="mb-12">
+            <div class="flex items-center gap-4 mb-6">
+                <h2 class="text-2xl font-bold text-brand-accent italic uppercase">TIÊU ĐỀ</h2>
+                <div class="flex-grow h-px bg-brand-muted"></div>
+            </div>
+            
+            <div class="space-y-6">
+                <div class="glass-card p-8 rounded-xl relative group">
+                    <p class="text-xs uppercase text-brand-accent mb-2 font-bold tracking-tighter opacity-60">Copy nguyên dòng này:</p>
+                    <p id="title-1" class="text-xl md:text-2xl content-block">Hệ sinh thái Phạm Hoàng Anh: Ứng dụng AI thực tế trong Bất Động Sản và Tài Chính</p>
+                </div>
+
+                <div class="glass-card p-8 rounded-xl relative group">
+                    <p class="text-xs uppercase text-brand-accent mb-2 font-bold tracking-tighter opacity-60">Copy nguyên dòng này:</p>
+                    <p id="title-2" class="text-xl md:text-2xl content-block">AI Phạm Hoàng Anh: Trí tuệ nhân tạo giải quyết bài toán thực tế</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <!-- SECTION: HASHTAG -->
+        <section class="mb-12">
+            <div class="flex items-center gap-4 mb-6">
+                <h2 class="text-2xl font-bold text-brand-accent italic uppercase">HASHTAG</h2>
+                <div class="flex-grow h-px bg-brand-muted"></div>
+            </div>
+            
+            <div class="glass-card p-8 rounded-xl">
+                <p class="text-xs uppercase text-brand-accent mb-4 font-bold tracking-tighter opacity-60">Copy nguyên khối này:</p>
+                <p class="text-lg text-blue-800 content-block leading-loose">#PhamHoangAnh #AIBatDongSan #TriTueNhanTao #AI #BatDongSan #TaiChinh #DauTu #CongNghe #Ecosystem #PhanTichDuLieu #KienTruc #PhongThuy #HeSinhThai #DigitalTransformation #BDS</p>
+            </div>
+        </section>
+
+        <div class="divider"></div>
+
+        <!-- SECTION: MÔ TẢ -->
+        <section class="mb-12">
+            <div class="flex items-center gap-4 mb-6">
+                <h2 class="text-2xl font-bold text-brand-accent italic uppercase">MÔ TẢ</h2>
+                <div class="flex-grow h-px bg-brand-muted"></div>
+            </div>
+            
+            <div class="glass-card p-8 md:p-12 rounded-xl">
+                <p class="text-xs uppercase text-brand-accent mb-6 font-bold tracking-tighter opacity-60">Copy nguyên khối dưới đây</p>
+                <div class="text-lg space-y-6 text-brand-dark content-block">
+Hệ sinh thái Phạm Hoàng Anh mang đến cái nhìn sâu sắc về cách trí tuệ nhân tạo (AI) đang thay đổi cách chúng ta giải quyết các bài toán thực tế trong cuộc sống, từ tài chính, bất động sản đến thiết kế kiến trúc và phong thủy. Không chỉ dừng lại ở các chatbot thông thường, hệ thống tập trung vào các AI Agent có khả năng phân tích logic và thực thi hiệu quả nhằm tối ưu hóa kết quả đầu tư và đời sống.
+
+International viewers: Discover how the Pham Hoang Anh Ecosystem leverages Artificial Intelligence to solve real-world challenges in Real Estate, Finance, and Architecture. Explore our advanced AI Agents designed for high-precision decision making and practical applications in modern life.
+
+Thông tin liên hệ:
+AI Bất Động Sản (@ai.batdongsan)
+Website: www.phamhoanganhtokens.com
+
+Tham gia cộng đồng của chúng tôi để cập nhật những xu hướng công nghệ mới nhất. Đừng quên nhấn đăng ký và bật thông báo để không bỏ lỡ những nội dung hữu ích từ Phạm Hoàng Anh.
+
+0:00 Tổng quan Hệ sinh thái Phạm Hoàng Anh
+1:30 AI Agent và khả năng thực thi tác vụ thực tế
+3:00 Ứng dụng AI trong Tài chính và Crypto
+5:00 Giải pháp Bất động sản và Thiết kế kiến trúc
+7:00 Khoa học đời sống và Phong thủy 2026
+9:00 Hiệu suất và độ tin cậy của hệ thống AI
+                </div>
+            </div>
+        </section>
+
+        <!-- REFERENCE SECTION -->
+        <div class="mt-24">
+            <details class="group bg-brand-light rounded-2xl overflow-hidden border border-brand-muted">
+                <summary class="flex items-center justify-between p-6 text-brand-dark font-bold text-lg select-none hover:bg-white transition-colors">
+                    <span>Original Video Content for Reference</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transform transition-transform group-open:rotate-180 text-brand-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                    </svg>
+                </summary>
+                <div class="p-8 border-t border-brand-muted bg-white">
+                    <p class="text-xl italic mb-6">Hệ sinh thái Phạm Hoàng Anh : trí tuệ nhân tạo giải quyết bài toán thực tế</p>
+                    <div class="rounded-xl overflow-hidden shadow-2xl">
+                        <img src='https://opal.google/board/blobs/e9812e24-3b0d-4249-9d26-c44b09209810' alt='media_1' class="w-full h-auto object-cover" />
+                    </div>
+                </div>
+            </details>
+        </div>
+
+    </main>
+
+    <script>
+        // Simple notification for "Copying" simulation if we had buttons, 
+        // but instructions say to keep it simple and readable.
+        // Adding a subtle fade-in animation to the cards
+        document.addEventListener('DOMContentLoaded', () => {
+            const sections = document.querySelectorAll('.glass-card');
+            sections.forEach((section, index) => {
+                section.style.opacity = '0';
+                section.style.transform = 'translateY(20px)';
+                setTimeout(() => {
+                    section.style.transition = 'all 0.6s cubic-bezier(0.2, 0.8, 0.2, 1)';
+                    section.style.opacity = '1';
+                    section.style.transform = 'translateY(0)';
+                }, 100 * index);
+            });
+        });
+    </script>
+</body>
+</html>
