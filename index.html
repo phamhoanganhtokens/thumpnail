@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thumbnail Master AI - AI Trade Pro v4.0</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            deep: '#0f172a', // Deep Navy
+                            gold: '#c5a059', // Professional Gold
+                            teal: '#0d9488', // Rich Teal
+                            surface: '#f8fafc', // Soft Grey/Off-white
+                            card: '#ffffff'
+                        }
+                    },
+                    fontFamily: {
+                        'serif': ['"Times New Roman"', 'Times', 'serif']
+                    },
+                    boxShadow: {
+                        'premium': '0 20px 25px -5px rgba(0, 0, 0, 0.05), 0 10px 10px -5px rgba(0, 0, 0, 0.02)',
+                        'hover-premium': '0 30px 50px -12px rgba(0, 0, 0, 0.15)'
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            background-color: #f8fafc;
+            color: #1e293b;
+            line-height: 1.6;
+        }
+
+        .justify-text {
+            text-align: justify;
+            hyphens: auto;
+        }
+
+        .glass-header {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(226, 232, 240, 0.8);
+        }
+
+        .thumbnail-card {
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            border: 1px solid rgba(226, 232, 240, 0.5);
+        }
+
+        .thumbnail-card:hover {
+            transform: translateY(-8px);
+        }
+
+        .gradient-accent {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+        }
+
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 3px;
+            background: #c5a059;
+            margin: 12px auto 0;
+        }
+
+        .img-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Header Section -->
+    <header class="glass-header sticky top-0 z-50 py-6 px-4">
+        <div class="max-w-7xl mx-auto">
+            <h1 class="text-3xl md:text-4xl font-bold text-center text-brand-deep tracking-tight">
+                Thumbnail Master AI: Các Mẫu Thumbnail Đề Xuất
+            </h1>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 space-y-20">
+        
+        <!-- User Design Information Section -->
+        <section class="max-w-4xl mx-auto animate-fade-in">
+            <div class="bg-brand-card rounded-2xl p-8 md:p-12 shadow-premium border-t-4 border-brand-gold">
+                <h2 class="text-2xl font-bold text-brand-deep mb-8 text-center section-title uppercase tracking-wider">
+                    Thông Tin Thiết Kế Gốc Của Bạn
+                </h2>
+                <div class="space-y-6 text-lg text-slate-700 leading-relaxed justify-text">
+                    <p>
+                        Trải nghiệm sức mạnh của AI Trade Pro v4.0 - Hệ thống Multi-Agent AI đột phá giúp tự động hóa phân tích kỹ thuật và quản trị rủi ro cho XAUUSD. Với sự phối hợp từ nhiều Agent chuyên biệt như Market Scanner, Risk Manager và Psychologist, hệ thống mang đến góc nhìn đa chiều và tín hiệu giao dịch chính xác.
+                    </p>
+                    <p>
+                        Đội ngũ AI Software Development hiện đang có chương trình ưu đãi chuyển giao công nghệ trị giá $1000 cho cộng đồng trader trải nghiệm dịch vụ. Đây là cơ hội để bạn sở hữu công cụ lọc nhiễu thị trường và tối ưu hóa lợi nhuận bền vững.
+                    </p>
+                    
+                    <div class="pt-6 border-t border-slate-100 mt-8 grid grid-cols-1 md:grid-cols-2 gap-4 text-sm font-medium">
+                        <div class="flex items-center space-x-2 text-brand-teal">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path></svg>
+                            <span>AI Bất Động Sản (@ai.batdongsan)</span>
+                        </div>
+                        <div class="flex items-center space-x-2 text-brand-teal">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9h18"></path></svg>
+                            <span>www.phamhoanganhtokens.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Generated Thumbnails Section -->
+        <section class="space-y-12">
+            <h2 class="text-3xl font-bold text-brand-deep text-center section-title uppercase tracking-widest">
+                Các Mẫu Thumbnail Đã Tạo
+            </h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Thumbnail Card 1 -->
+                <div class="thumbnail-card bg-brand-card rounded-xl overflow-hidden shadow-premium flex flex-col h-full">
+                    <div class="img-container aspect-video bg-slate-200">
+                        <img src='https://opal.google/board/blobs/3c5e5fdf-bc09-4a14-a409-b4f4379b478e' alt='Bản lĩnh Nhà giao dịch' loading="lazy" />
+                    </div>
+                    <div class="p-6 flex-grow flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-xl font-bold text-brand-deep mb-3 uppercase tracking-tight">1. Bản lĩnh Nhà giao dịch</h3>
+                            <p class="text-slate-600 justify-text mb-4">
+                                Hình ảnh mô tả sự chuyên nghiệp với bối cảnh văn phòng cao cấp, tập trung vào sức mạnh của AI Trade Pro v4.0 trong việc làm chủ thị trường vàng (XAUUSD). Cuốn sách màu hồng và mã QR được đặt tinh tế trên bàn làm việc.
+                            </p>
+                        </div>
+                        <div class="mt-auto pt-4 border-t border-slate-50">
+                            <p class="text-brand-teal font-bold text-sm italic uppercase">Tiêu đề đề xuất:</p>
+                            <p class="text-brand-deep font-bold justify-text leading-tight mt-1">AI TRADE PRO V4.0: ĐIỀU KHIỂN THỊ TRƯỜNG VÀNG</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Thumbnail Card 2 -->
+                <div class="thumbnail-card bg-brand-card rounded-xl overflow-hidden shadow-premium flex flex-col h-full">
+                    <div class="img-container aspect-video bg-slate-200">
+                        <img src='https://opal.google/board/blobs/5081aba6-d6b5-4c45-9fb9-fa394fb30233' alt='Công nghệ Multi-Agent' loading="lazy" />
+                    </div>
+                    <div class="p-6 flex-grow flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-xl font-bold text-brand-deep mb-3 uppercase tracking-tight">2. Công nghệ Multi-Agent</h3>
+                            <p class="text-slate-600 justify-text mb-4">
+                                Giao diện công nghệ cao với các hologram của Robot Agent, thể hiện sự đột phá trong phân tích kỹ thuật và quản trị rủi ro. Logo AI Agent xuất hiện nổi bật giữa trung tâm điều khiển.
+                            </p>
+                        </div>
+                        <div class="mt-auto pt-4 border-t border-slate-50">
+                            <p class="text-brand-teal font-bold text-sm italic uppercase">Tiêu đề đề xuất:</p>
+                            <p class="text-brand-deep font-bold justify-text leading-tight mt-1">HỆ THỐNG MULTI-AGENT AI ĐỘT PHÁ</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Thumbnail Card 3 -->
+                <div class="thumbnail-card bg-brand-card rounded-xl overflow-hidden shadow-premium flex flex-col h-full">
+                    <div class="img-container aspect-video bg-slate-200">
+                        <img src='https://opal.google/board/blobs/0416f6cc-1593-47e4-985c-7f26d8ead13f' alt='$1000 Offer Focus' loading="lazy" />
+                    </div>
+                    <div class="p-6 flex-grow flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-xl font-bold text-brand-deep mb-3 uppercase tracking-tight">3. Ưu đãi Công nghệ $1000</h3>
+                            <p class="text-slate-600 justify-text mb-4">
+                                Thiết kế tập trung vào tính khẩn cấp và giá trị của lộ trình ưu đãi $1000. Chữ được trình bày đậm, tương phản cực cao trên nền công nghệ ánh sáng xanh rực rỡ.
+                            </p>
+                        </div>
+                        <div class="mt-auto pt-4 border-t border-slate-50">
+                            <p class="text-brand-teal font-bold text-sm italic uppercase">Tiêu đề đề xuất:</p>
+                            <p class="text-brand-deep font-bold justify-text leading-tight mt-1">NHẬN NGAY ƯU ĐÃI $1000 CHUYỂN GIAO AI</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Thumbnail Card 4 -->
+                <div class="thumbnail-card bg-brand-card rounded-xl overflow-hidden shadow-premium flex flex-col h-full">
+                    <div class="img-container aspect-video bg-slate-200">
+                        <img src='https://opal.google/board/blobs/4f81cc1b-100a-412b-90c0-fdba5d50dfa4' alt='Giao dịch Tối ưu' loading="lazy" />
+                    </div>
+                    <div class="p-6 flex-grow flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-xl font-bold text-brand-deep mb-3 uppercase tracking-tight">4. Giao dịch Tối ưu</h3>
+                            <p class="text-slate-600 justify-text mb-4">
+                                Góc nhìn làm việc thẩm mỹ, hiện đại, gợi lên sự tin tưởng và bền vững. Hình ảnh nhấn mạnh vào việc sử dụng công cụ AI để lọc nhiễu thị trường, với cuốn sách hồng là điểm nhấn thị giác.
+                            </p>
+                        </div>
+                        <div class="mt-auto pt-4 border-t border-slate-50">
+                            <p class="text-brand-teal font-bold text-sm italic uppercase">Tiêu đề đề xuất:</p>
+                            <p class="text-brand-deep font-bold justify-text leading-tight mt-1">BÍ QUYẾT LỌC NHIỄU VÀ TỐI ƯU LỢI NHUẬN</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Thumbnail Card 5 -->
+                <div class="thumbnail-card bg-brand-card rounded-xl overflow-hidden shadow-premium flex flex-col h-full lg:col-span-1 md:col-span-2 lg:mx-auto lg:max-w-md">
+                    <div class="img-container aspect-video bg-slate-200">
+                        <img src='https://opal.google/board/blobs/a22eaccc-46b0-4b41-a8ae-14aa93c06738' alt='Tương lai Tài chính' loading="lazy" />
+                    </div>
+                    <div class="p-6 flex-grow flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-xl font-bold text-brand-deep mb-3 uppercase tracking-tight">5. Tương lai Tài chính</h3>
+                            <p class="text-slate-600 justify-text mb-4">
+                                Hình ảnh trừu tượng về sức mạnh xử lý của AI với các họa tiết vàng lỏng và mạch điện. Thể hiện tính chuyên sâu về công nghệ phân tích XAUUSD và quản trị rủi ro đa tầng.
+                            </p>
+                        </div>
+                        <div class="mt-auto pt-4 border-t border-slate-50">
+                            <p class="text-brand-teal font-bold text-sm italic uppercase">Tiêu đề đề xuất:</p>
+                            <p class="text-brand-deep font-bold justify-text leading-tight mt-1">TỰ ĐỘNG HÓA GIAO DỊCH VÀNG VỚI AI</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Decorative Bottom Divider -->
+    <div class="w-full h-1 gradient-accent mt-20"></div>
+
+</body>
+</html>
