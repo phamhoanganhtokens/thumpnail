@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Content Suite Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0A6640', // Deep forest green
+                        accent: '#4CAF50',  // Muted green
+                        background: '#F8F8F8',
+                        textMain: '#333333',
+                    },
+                    fontFamily: {
+                        serif: ['"Times New Roman"', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: "Times New Roman", serif;
+            background-color: #F8F8F8;
+            color: #333333;
+            line-height: 1.6;
+        }
+        .content-block {
+            white-space: pre-wrap;
+            text-align: justify;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.9);
+            border: 1px solid rgba(10, 102, 64, 0.1);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+        .glass-card:hover {
+            box-shadow: 0 8px 40px rgba(0, 0, 0, 0.08);
+            border: 1px solid rgba(10, 102, 64, 0.2);
+        }
+        .copy-label {
+            font-size: 0.85rem;
+            font-weight: bold;
+            color: #0A6640;
+            margin-bottom: 0.5rem;
+            display: block;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        summary {
+            cursor: pointer;
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        summary::-webkit-details-marker {
+            display: none;
+        }
+        .divider {
+            height: 1px;
+            background: linear-gradient(to right, transparent, #0A6640, transparent);
+            opacity: 0.2;
+            margin: 3rem 0;
+        }
+    </style>
+</head>
+<body class="p-4 md:p-12">
+
+    <div class="max-w-4xl mx-auto">
+        <!-- Header -->
+        <header class="text-center mb-16 animate-fade-in">
+            <h1 class="text-3xl md:text-5xl font-bold text-primary mb-4 tracking-tight">
+                YouTube Content Suite Generator
+            </h1>
+            <div class="h-1 w-24 bg-accent mx-auto rounded-full"></div>
+        </header>
+
+        <!-- Main Content Area -->
+        <main class="space-y-12">
+            
+            <!-- TIÊU ĐỀ Section -->
+            <section class="glass-card p-8 rounded-2xl">
+                <h2 class="text-2xl font-bold text-primary mb-6 border-b border-accent/20 pb-2">TIÊU ĐỀ</h2>
+                
+                <div class="space-y-8">
+                    <div>
+                        <span class="copy-label">Copy nguyên dòng này:</span>
+                        <p class="text-lg md:text-xl font-medium selection:bg-accent/30">Review H CAFE Quận 7 - Cà Phê Muối Chill Tại Tân Quy | AI Bất Động Sản</p>
+                    </div>
+                    
+                    <div>
+                        <span class="copy-label">Copy nguyên dòng này:</span>
+                        <p class="text-lg md:text-xl font-medium selection:bg-accent/30">H CAFE Quận 7 - Cà Phê Muối Và Không Gian Chill</p>
+                    </div>
+                </div>
+            </section>
+
+            <div class="divider"></div>
+
+            <!-- HASHTAG Section -->
+            <section class="glass-card p-8 rounded-2xl">
+                <h2 class="text-2xl font-bold text-primary mb-6 border-b border-accent/20 pb-2">HASHTAG</h2>
+                <div>
+                    <span class="copy-label">Copy nguyên khối này:</span>
+                    <p class="content-block text-lg italic selection:bg-accent/30 text-accent font-semibold">#HCafe #CafeQuan7 #CaPheMuoi #ReviewAmThuc #AIBatDongSan #PhamHoangAnh #CafeSaiGon #TanQuy #KhamPhaSaiGon #QuanCafeDep #CafeChill #SaigonCoffee #CoffeeLover #AmThucQuan7</p>
+                </div>
+            </section>
+
+            <div class="divider"></div>
+
+            <!-- MÔ TẢ Section -->
+            <section class="glass-card p-8 rounded-2xl">
+                <h2 class="text-2xl font-bold text-primary mb-6 border-b border-accent/20 pb-2">MÔ TẢ</h2>
+                <div>
+                    <span class="copy-label">Copy nguyên khối dưới đây:</span>
+                    <div class="content-block text-base md:text-lg selection:bg-accent/30 leading-relaxed">H CAFE - Một góc nhỏ bình yên giúp bạn Brighten Your Day ngay giữa lòng Quận 7.
+
+Tọa lạc tại địa chỉ 85 Đường số 49, Phường Tân Quy, H CAFE sở hữu không gian hiện đại, ấm cúng và vô cùng tinh tế. Đây là điểm dừng chân lý tưởng cho những ai đang tìm kiếm một khoảng lặng để làm việc sáng tạo hoặc gặp gỡ bạn bè trong không gian ngập tràn ánh sáng.
+
+Điểm nhấn đặc biệt chính là thực đơn đa dạng với mức giá chỉ từ 20.000đ đến 45.000đ. Đừng bỏ lỡ món Cà Phê Muối đậm đà hay các dòng trà Detox thanh mát khi ghé thăm quán nhé. Dịch vụ tận tâm và không gian chuẩn gu chắc chắn sẽ làm bạn hài lòng.
+
+<span class="font-bold block mt-6 mb-2">English Version:</span>H CAFE is a peaceful urban oasis in District 7, perfect for digital nomads or anyone seeking a cozy, creative atmosphere. Located at 85 Street 49, Tan Quy Ward, it offers premium specialty coffee like Vietnamese Salt Coffee and fresh detox juices at friendly prices (20k - 45k VND).
+
+<span class="font-bold block mt-6 mb-2">Thông tin liên hệ và tư vấn:</span>AI Bất Động Sản (@ai.batdongsan) - <a href="www.phamhoanganhtokens.com" target="_blank" class="text-primary hover:underline">www.phamhoanganhtokens.com</a>
+
+Nhấn Like và Đăng ký kênh Phạm Hoàng Anh để khám phá thêm nhiều địa điểm thú vị khác!
+
+<span class="font-bold block mt-6 mb-2">Mốc thời gian:</span>0:00 Khám phá H CAFE Quận 7
+0:45 Review Menu và Cà phê muối đặc trưng
+1:30 Không gian thiết kế và trải nghiệm
+2:15 Thông tin địa chỉ và tổng kết</div>
+                </div>
+            </section>
+
+            <!-- Original Video Content (Reference) -->
+            <section class="mt-20">
+                <details class="group border border-gray-300 rounded-xl overflow-hidden bg-white">
+                    <summary class="p-4 bg-gray-50 hover:bg-gray-100 transition-colors">
+                        <span class="font-bold text-gray-600">Original Video Content for Reference</span>
+                        <svg class="w-5 h-5 transition-transform group-open:rotate-180" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    </summary>
+                    <div class="p-6 space-y-6">
+                        <div class="flex flex-col md:flex-row gap-6 items-start">
+                            <div class="flex-shrink-0 w-full md:w-1/3 rounded-lg overflow-hidden shadow-md">
+                                <img src='https://opal.google/board/blobs/756180db-6746-4998-8d66-52b9a9cebdc9' alt='media_1' class="w-full h-auto object-cover hover:scale-105 transition-transform duration-500" />
+                            </div>
+                            <div class="flex-grow">
+                                <p class="text-xl font-bold mb-2">H cà phê</p>
+                                <p class="text-gray-600 italic">85 Đường số 49, Phường Tân Quy, Quận 7 Ho Chi Minh City, Vietnam</p>
+                            </div>
+                        </div>
+                    </div>
+                </details>
+            </section>
+        </main>
+        
+        <!-- Subtle Branding -->
+        <div class="mt-16 text-center text-gray-400 text-sm">
+            <p>AI Bất Động Sản — Content Management Suite</p>
+        </div>
+    </div>
+
+    <script>
+        // Simple entry animation
+        document.addEventListener('DOMContentLoaded', () => {
+            const sections = document.querySelectorAll('section');
+            sections.forEach((s, i) => {
+                s.style.opacity = '0';
+                s.style.transform = 'translateY(20px)';
+                s.style.transition = `all 0.6s ease ${i * 0.1}s`;
+                
+                setTimeout(() => {
+                    s.style.opacity = '1';
+                    s.style.transform = 'translateY(0)';
+                }, 100);
+            });
+        });
+    </script>
+</body>
+</html>
