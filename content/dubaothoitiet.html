@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Content Suite Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'brand-dark': '#0A6640',
+                        'brand-muted': '#4CAF50',
+                        'bg-soft': '#F8F8F8',
+                        'content-text': '#333333'
+                    },
+                    fontFamily: {
+                        'serif': ['"Times New Roman"', 'Times', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            background-color: #F8F8F8;
+            color: #333333;
+            line-height: 1.6;
+            scroll-behavior: smooth;
+        }
+        .content-block {
+            white-space: pre-wrap;
+            text-align: justify;
+            word-wrap: break-word;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.05);
+        }
+        details summary::-webkit-details-marker {
+            display: none;
+        }
+        details summary {
+            list-style: none;
+            cursor: pointer;
+        }
+        .copy-badge {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: #0A6640;
+            font-weight: bold;
+            border-bottom: 1px solid #0A6640;
+            margin-bottom: 0.5rem;
+            display: inline-block;
+        }
+        hr.elegant {
+            border: 0;
+            height: 1px;
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(10, 102, 64, 0.4), rgba(0, 0, 0, 0));
+            margin: 2rem 0;
+        }
+        .media-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="p-4 md:p-8">
+
+    <div class="max-w-4xl mx-auto">
+        
+        <!-- Header -->
+        <header class="text-center mb-12 animate-fade-in">
+            <h1 class="text-4xl md:text-5xl font-bold text-brand-dark mb-2">YouTube Content Suite Generator</h1>
+            <p class="text-brand-muted text-lg italic italic">Professional Metadata Management</p>
+        </header>
+
+        <!-- Main Content Area -->
+        <main class="space-y-12">
+            
+            <!-- Section: TIÊU ĐỀ -->
+            <section class="glass-card p-6 md:p-10 rounded-2xl transition-all hover:shadow-lg">
+                <h2 class="text-2xl font-bold text-brand-dark mb-6 flex items-center border-l-4 border-brand-dark pl-4 uppercase tracking-wider">
+                    TIÊU ĐỀ (TITLES)
+                </h2>
+                
+                <div class="space-y-8">
+                    <div>
+                        <span class="copy-badge">Copy nguyên dòng này:</span>
+                        <div class="content-block text-xl font-semibold leading-snug">TP.HCM Đón Mưa Vàng: Gió Tây Nam Giải Nhiệt Cao Điểm | Tin Tức Thời Tiết</div>
+                    </div>
+                    
+                    <hr class="border-gray-100">
+                    
+                    <div>
+                        <span class="copy-badge">Copy nguyên dòng này:</span>
+                        <div class="content-block text-xl font-semibold leading-snug">TP.HCM Có Mưa Vàng Giải Nhiệt</div>
+                    </div>
+                </div>
+            </section>
+
+            <hr class="elegant">
+
+            <!-- Section: HASHTAG -->
+            <section class="glass-card p-6 md:p-10 rounded-2xl transition-all hover:shadow-lg">
+                <h2 class="text-2xl font-bold text-brand-dark mb-6 flex items-center border-l-4 border-brand-dark pl-4 uppercase tracking-wider">
+                    HASHTAGS
+                </h2>
+                <div>
+                    <span class="copy-badge">Copy nguyên khối này:</span>
+                    <div class="content-block text-brand-muted font-medium tracking-tight">#tphcm #muavang #giotaynam #thoitiet #saigon #giainhiet #muamua #tintuc #aibatdongsan #phamhoanganh #reviewamthuc #thoitietvtv #saigonrain #vietnamweather</div>
+                </div>
+            </section>
+
+            <hr class="elegant">
+
+            <!-- Section: MÔ TẢ -->
+            <section class="glass-card p-6 md:p-10 rounded-2xl transition-all hover:shadow-lg">
+                <h2 class="text-2xl font-bold text-brand-dark mb-6 flex items-center border-l-4 border-brand-dark pl-4 uppercase tracking-wider">
+                    MÔ TẢ (DESCRIPTION)
+                </h2>
+                <div>
+                    <span class="copy-badge">Copy nguyên khối dưới đây</span>
+                    <div class="content-block text-lg leading-relaxed space-y-4">
+Mưa vàng đã về TP.HCM! Gió Tây Nam mang làn gió mát, hạ nhiệt từ 37 độ xuống mức dễ chịu hơn. Theo dõi ngay để biết khi nào mưa lớn và cách phòng tránh dông lốc, sấm sét mùa này.
+
+Rain is finally here in Saigon! The Southwest monsoon brings cooler air to the city. Watch for the latest weather updates and storm safety tips for your stay in Ho Chi Minh City.
+
+0:00 Gió Tây Nam xuất hiện
+1:30 Nhiệt độ giảm mạnh
+3:00 Cảnh báo dông lốc, sấm sét
+5:00 Lưu ý an toàn mùa mưa
+
+Đăng ký kênh để cập nhật tin tức mới nhất cùng AI Bất Động Sản!
+
+AI Bất Động Sản (@ai.batdongsan) - www.phamhoanganhtokens.com</div>
+                </div>
+            </section>
+
+            <!-- Reference Section - Original Video Content -->
+            <section class="mt-20 opacity-80 hover:opacity-100 transition-opacity">
+                <details class="group bg-white rounded-xl border border-gray-200">
+                    <summary class="flex items-center justify-between p-4 font-semibold text-gray-600">
+                        <span>Original Video Content for Reference</span>
+                        <svg class="w-5 h-5 transition-transform group-open:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </summary>
+                    <div class="p-6 pt-0 space-y-6">
+                        <div class="content-block italic text-gray-500 border-t pt-4">
+                            Tin vui: Gió tây nam xuất hiện, hôm nay TP.HCM có mưa vàng giải nhiệt
+                        </div>
+                        <div class="media-container flex justify-center">
+                            <img src='https://opal.google/board/blobs/a8b358c1-9e85-4084-afc1-35080b7c728f' alt='media_1' />
+                        </div>
+                    </div>
+                </details>
+            </section>
+
+        </main>
+        
+        <!-- Subtle Interactive Element (Back to Top) -->
+        <div class="fixed bottom-8 right-8">
+            <button onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="bg-brand-dark text-white p-3 rounded-full shadow-2xl hover:bg-brand-muted transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-dark" aria-label="Top">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 10l7-7m0 0l7 7m-7-7v18"></path>
+                </svg>
+            </button>
+        </div>
+
+    </div>
+
+    <script>
+        // Simple Fade-in effect on load
+        document.addEventListener('DOMContentLoaded', () => {
+            const sections = document.querySelectorAll('section');
+            sections.forEach((el, index) => {
+                el.style.opacity = '0';
+                el.style.transform = 'translateY(20px)';
+                el.style.transition = 'all 0.6s ease-out';
+                setTimeout(() => {
+                    el.style.opacity = '1';
+                    el.style.transform = 'translateY(0)';
+                }, 150 * index);
+            });
+        });
+    </script>
+</body>
+</html>
+
