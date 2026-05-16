@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Content Suite Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0A6640',
+                        accent: '#4CAF50',
+                        background: '#F8F8F8',
+                        text: '#333333'
+                    },
+                    fontFamily: {
+                        serif: ['"Times New Roman"', 'Times', 'serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            background-color: #F8F8F8;
+            color: #333333;
+            line-height: 1.6;
+            text-align: justify;
+        }
+        .content-block {
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .glass-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+        }
+        .copy-tag {
+            font-style: italic;
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+            display: block;
+        }
+        summary::-webkit-details-marker {
+            display: none;
+        }
+        summary:after {
+            content: "+";
+            float: right;
+            font-weight: bold;
+        }
+        details[open] summary:after {
+            content: "-";
+        }
+    </style>
+</head>
+<body class="p-4 md:p-10">
+
+    <div class="max-w-4xl mx-auto">
+        <!-- Header -->
+        <header class="mb-12 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-primary mb-4 tracking-tight">
+                YouTube Content Suite Generator
+            </h1>
+            <div class="w-24 h-1 bg-primary mx-auto rounded-full opacity-30"></div>
+        </header>
+
+        <main class="space-y-12">
+            <!-- YouTube Content Suite -->
+            <section class="space-y-10">
+                
+                <!-- TIÊU ĐỀ Section -->
+                <div class="glass-card p-8 rounded-2xl shadow-sm border-l-4 border-primary">
+                    <h2 class="text-2xl font-bold mb-6 text-primary border-b pb-2 flex items-center">
+                        <span class="mr-2">I.</span> TIÊU ĐỀ
+                    </h2>
+                    
+                    <div class="mb-8">
+                        <span class="copy-tag">Copy nguyên dòng này:</span>
+                        <p class="text-xl md:text-2xl font-medium leading-relaxed">
+                            Coffee với các Đại Ca AI đầu ngành: Tương lai Trí Tuệ Nhân Tạo 2026
+                        </p>
+                    </div>
+
+                    <div>
+                        <span class="copy-tag">Copy nguyên dòng này:</span>
+                        <p class="text-xl md:text-2xl font-medium leading-relaxed">
+                            Cà phê cùng các bậc thầy AI
+                        </p>
+                    </div>
+                </div>
+
+                <hr class="border-gray-200">
+
+                <!-- HASHTAG Section -->
+                <div class="glass-card p-8 rounded-2xl shadow-sm border-l-4 border-primary">
+                    <h2 class="text-2xl font-bold mb-6 text-primary border-b pb-2 flex items-center">
+                        <span class="mr-2">II.</span> HASHTAG
+                    </h2>
+                    
+                    <div>
+                        <span class="copy-tag">Copy nguyên khối này:</span>
+                        <p class="text-lg text-primary tracking-wide leading-loose">
+                            #aibatdongsan #phamhoanganh #trituenhantao #ai #technology #coffeechat #chuyengiaAI #tuonglaiAI #kienthuccuocsong #reviewamthuc #khampha #congnghe #automation #smartliving #vietnamtech
+                        </p>
+                    </div>
+                </div>
+
+                <hr class="border-gray-200">
+
+                <!-- MÔ TẢ Section -->
+                <div class="glass-card p-8 rounded-2xl shadow-sm border-l-4 border-primary">
+                    <h2 class="text-2xl font-bold mb-6 text-primary border-b pb-2 flex items-center">
+                        <span class="mr-2">III.</span> MÔ TẢ
+                    </h2>
+                    
+                    <div>
+                        <span class="copy-tag">Copy nguyên khối dưới đây:</span>
+                        <div class="content-block text-lg leading-relaxed space-y-6">
+                            <p>Chào mừng bạn đã quay trở lại với Phạm Hoàng Anh. Video hôm nay là buổi trò chuyện sâu sắc bên ly cà phê cùng các chuyên gia hàng đầu trong lĩnh vực AI. Chúng tôi cùng thảo luận về sự bùng nổ của trí tuệ nhân tạo và cách nó thay đổi thị trường hiện nay.</p>
+
+                            <div class="bg-gray-50 p-4 border rounded-lg italic">
+                                <strong>Thông tin công ty:</strong><br>
+                                AI Bất Động Sản (@ai.batdongsan) - <a href="www.phamhoanganhtokens.com" class="text-primary hover:underline" target="_blank">www.phamhoanganhtokens.com</a>
+                            </div>
+
+                            <div class="font-bold">Mốc thời gian:</div>
+                            <ul class="list-none space-y-1">
+                                <li>0:00 Gặp gỡ các chuyên gia đầu ngành</li>
+                                <li>2:30 Xu hướng AI những năm tới</li>
+                                <li>5:45 Ứng dụng AI vào Bất động sản</li>
+                                <li>9:15 Thảo luận về tương lai công nghệ</li>
+                                <li>12:50 Lời chào kết và lưu ý</li>
+                            </ul>
+
+                            <p>Hãy bấm Like và Đăng ký kênh để cập nhật những video mới nhất về công nghệ AI và ẩm thực nhé!</p>
+
+                            <div class="pt-4 border-t border-dashed border-gray-300 italic text-gray-600">
+                                International visitors: Explore AI trends with Vietnam's tech leaders. An engaging discussion on how artificial intelligence is shaping the future of global industries. Expert insights from the heart of the tech community.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Reference Section -->
+            <section class="mt-16">
+                <details class="group bg-white rounded-xl border border-gray-200 shadow-sm overflow-hidden">
+                    <summary class="list-none cursor-pointer p-4 bg-gray-100 font-bold text-gray-600 hover:bg-gray-200 transition-colors uppercase tracking-widest text-sm">
+                        Original Video Content for Reference
+                    </summary>
+                    <div class="p-6 text-gray-500 italic">
+                        cà phê với các đại ca đầu ngành trong lĩnh vực trí tuệ nhân tạo
+                    </div>
+                </details>
+            </section>
+        </main>
+
+        <!-- Company Footer / Contact Integrated -->
+        <div class="mt-20 mb-10 text-center opacity-60">
+            <p class="text-sm">
+                AI Bất Động Sản (@ai.batdongsan) • 
+                <a href="www.phamhoanganhtokens.com" class="hover:text-primary transition-colors" target="_blank">www.phamhoanganhtokens.com</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Micro-interaction script -->
+    <script>
+        // Subtle interaction for highlighting blocks on click (optional utility)
+        document.querySelectorAll('.glass-card').forEach(card => {
+            card.addEventListener('click', () => {
+                // Future expansion: auto-copy functionality could be added here
+            });
+        });
+    </script>
+</body>
+</html>
