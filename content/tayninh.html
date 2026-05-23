@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Content Suite Generator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#0A6640', // Deep forest green accent
+                        surface: '#F8F8F8',
+                        content: '#333333',
+                    },
+                    fontFamily: {
+                        serif: ['"Times New Roman"', 'serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: "Times New Roman", Times, serif;
+            background-color: #ffffff;
+            color: #333333;
+            line-height: 1.6;
+        }
+        .content-block {
+            white-space: pre-wrap;
+            text-align: justify;
+            font-size: 1.1rem;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(10, 102, 64, 0.1);
+        }
+        details summary {
+            cursor: pointer;
+            list-style: none;
+            transition: all 0.3s ease;
+        }
+        details summary::-webkit-details-marker {
+            display: none;
+        }
+        .copy-badge {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            background: #f0fdf4;
+            color: #166534;
+            padding: 2px 8px;
+            border-radius: 4px;
+            border: 1px solid #bbf7d0;
+            margin-bottom: 8px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body class="min-h-screen py-12 px-4 sm:px-6">
+
+    <div class="max-w-3xl mx-auto">
+        <!-- Header -->
+        <header class="mb-12 text-center">
+            <h1 class="text-4xl font-bold text-primary tracking-tight mb-2">
+                YouTube Content Suite Generator
+            </h1>
+            <div class="h-1 w-20 bg-primary mx-auto opacity-20"></div>
+        </header>
+
+        <!-- Main Content Area -->
+        <main class="space-y-12">
+            
+            <!-- TIÊU ĐỀ SECTION -->
+            <section class="relative group">
+                <div class="flex items-center mb-6">
+                    <span class="w-8 h-px bg-primary mr-4"></span>
+                    <h2 class="text-2xl font-bold uppercase text-primary">Tiêu Đề</h2>
+                    <span class="flex-grow h-px bg-gray-100 ml-4"></span>
+                </div>
+                
+                <div class="space-y-6">
+                    <div class="p-6 rounded-lg bg-gray-50 border-l-4 border-primary shadow-sm hover:shadow-md transition-shadow">
+                        <span class="copy-badge">Lựa chọn 1</span>
+                        <div class="content-block">Copy nguyên dòng này: Về thăm nhà Nội: Nơi lưu giữ ký ức tuổi thơ bình yên | Phạm Hoàng Anh</div>
+                    </div>
+
+                    <div class="p-6 rounded-lg bg-gray-50 border-l-4 border-primary shadow-sm hover:shadow-md transition-shadow">
+                        <span class="copy-badge">Lựa chọn 2</span>
+                        <div class="content-block">Copy nguyên dòng này: Nhà Nội: Mảnh ghép ký ức tuổi thơ</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- HASHTAG SECTION -->
+            <section class="relative">
+                <div class="flex items-center mb-6">
+                    <span class="w-8 h-px bg-primary mr-4"></span>
+                    <h2 class="text-2xl font-bold uppercase text-primary">Hashtag</h2>
+                    <span class="flex-grow h-px bg-gray-100 ml-4"></span>
+                </div>
+                
+                <div class="p-6 rounded-lg bg-gray-50 border-l-4 border-primary shadow-sm">
+                    <span class="copy-badge">Khối Hashtag</span>
+                    <div class="content-block text-primary font-medium">Copy nguyên khối này:
+#nhanoi #kyuctuoitho #phamhoanganh #aibatdongsan #vlogquehuong #binhyen #kiniem #nhaco #langque #vietnam #dulichquehuong #batdongsan #reviewbatdongsan #kyuc #hoanganh</div>
+                </div>
+            </section>
+
+            <!-- MÔ TẢ SECTION -->
+            <section class="relative">
+                <div class="flex items-center mb-6">
+                    <span class="w-8 h-px bg-primary mr-4"></span>
+                    <h2 class="text-2xl font-bold uppercase text-primary">Mô Tả</h2>
+                    <span class="flex-grow h-px bg-gray-100 ml-4"></span>
+                </div>
+                
+                <div class="p-8 rounded-lg bg-white border border-gray-100 shadow-xl relative overflow-hidden">
+                    <div class="absolute top-0 right-0 p-4 opacity-5 pointer-events-none">
+                        <svg width="100" height="100" viewBox="0 0 24 24" fill="currentColor"><path d="M14,17H17V14H14V17M10,17H13V14H10V17M14,13H17V10H14V13M10,13H13V10H10V13M14,9H17V6H14V9M10,9H13V6H10V9M2,21V3H22V21H2M20,19V5H4V19H20Z" /></svg>
+                    </div>
+                    <span class="copy-badge">Phần mô tả chi tiết</span>
+                    <div class="content-block leading-relaxed">Copy nguyên khối dưới đây
+Cùng mình trở về ngôi nhà của Nội, nơi gắn liền với những kỷ niệm đẹp nhất của thời thơ ấu. Một không gian bình yên, mộc mạc và đầy ắp yêu thương giữa làng quê Việt Nam.
+
+Thông tin liên hệ và tư vấn:
+AI Bất Động Sản (@ai.batdongsan)
+Website: www.phamhoanganhtokens.com
+
+Cảm ơn bạn đã theo dõi video. Đừng quên nhấn Like và Đăng ký kênh để ủng hộ Phạm Hoàng Anh nhé!
+
+Timestamps:
+0:00 Cổng vào nhà Nội
+2:15 Những kỷ niệm bên hiên nhà
+5:00 Cây cổ thụ đầu ngõ
+7:45 Lời nhắn gửi từ quê hương
+
+English Information:
+Welcome to my grandparents' house, a place filled with my childhood memories. This traditional Vietnamese home is a soul-soothing retreat where time stands still. Join me as I rediscover the peaceful atmosphere of the countryside.</div>
+                </div>
+            </section>
+
+            <!-- Company Signature / Footer Integration -->
+            <div class="pt-8 border-t border-gray-100 text-center">
+                <p class="text-sm text-gray-400 italic">
+                    Generated by <span class="text-primary font-bold">AI Bất Động Sản (@ai.batdongsan)</span>
+                </p>
+                <p class="text-xs text-gray-400 mt-1">www.phamhoanganhtokens.com</p>
+            </div>
+
+            <!-- Original Content Reference (Collapsible) -->
+            <section class="mt-20">
+                <details class="group bg-gray-50 rounded-xl border border-gray-200">
+                    <summary class="flex items-center justify-between p-4 font-bold text-gray-500 hover:text-gray-700 select-none">
+                        <span class="flex items-center">
+                            <svg class="w-5 h-5 mr-2 transform group-open:rotate-90 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                            Original Video Content for Reference
+                        </span>
+                        <span class="text-xs font-normal opacity-60">Click to expand</span>
+                    </summary>
+                    <div class="p-6 pt-0 border-t border-gray-200">
+                        <div class="space-y-6">
+                            <p class="italic text-gray-600 border-l-2 border-gray-300 pl-4">"nhà nội nơi gắn liền kỉ niệm tuổi thơ của tôi"</p>
+                            <div class="rounded-lg overflow-hidden shadow-lg bg-black flex justify-center items-center aspect-video">
+                                <img src='https://opal.google/board/blobs/ad150e6f-5f75-4434-b8f5-17bea4f78910' alt='media_1' class="max-w-full h-auto object-contain" />
+                            </div>
+                        </div>
+                    </div>
+                </details>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- Micro-animation for interactions -->
+    <script>
+        document.querySelectorAll('.copy-badge').forEach(badge => {
+            badge.addEventListener('click', function() {
+                const originalText = this.innerText;
+                this.innerText = 'Click to Copy';
+                setTimeout(() => {
+                    this.innerText = originalText;
+                }, 1500);
+            });
+        });
+    </script>
+</body>
+</html>
